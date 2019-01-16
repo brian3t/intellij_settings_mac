@@ -1,0 +1,6 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId=".ignore plugin" />
+    <notification groupId=".ignore plugin update information" />
+  </component>
+</application>
