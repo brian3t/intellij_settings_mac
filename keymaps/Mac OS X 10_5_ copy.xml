@@ -1,5 +1,10 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
   <action id="BaseOnThisFunction" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta slash" />
+    <keyboard-shortcut first-keystroke="meta divide" />
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
