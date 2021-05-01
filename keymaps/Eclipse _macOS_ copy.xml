@@ -1,5 +1,8 @@
 <keymap version="1" name="Eclipse (macOS) copy" parent="Eclipse (Mac OS X)">
   <action id="ChangesView.Move" />
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="ctrl meta w" />
+  </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
   <action id="ShowContent" />
