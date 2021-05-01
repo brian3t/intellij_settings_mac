@@ -2,4 +2,6 @@
   <action id="ChangesView.Move" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="ShowContent" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
 </keymap>
