@@ -1,10 +1,21 @@
 <keymap version="1" name="Eclipse (macOS) copy" parent="Eclipse (Mac OS X)">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
   <action id="ChangesView.Move" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="ctrl meta w" />
   </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="FindNext" />
+  <action id="GotoBookmark1" />
   <action id="ShowContent" />
+  <action id="Terminal.ClearBuffer">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
   <action id="Vcs.MoveChangedLinesToChangelist" />
 </keymap>
