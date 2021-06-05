@@ -1,6 +1,12 @@
 <keymap version="1" name="Eclipse (macOS) copy" parent="Eclipse (Mac OS X)">
+  <action id="ActivateEventLogToolWindow">
+    <keyboard-shortcut first-keystroke="meta 8" />
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
+  <action id="ActivateServicesToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
   </action>
   <action id="ChangesView.Move" />
   <action id="CheckinProject">
@@ -11,9 +17,11 @@
   </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="DuplicatesForm.SendToRight" />
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
+  <action id="FileChooser.GotoProject" />
   <action id="FindNext" />
   <action id="GotoBookmark1" />
   <action id="ShowContent" />
