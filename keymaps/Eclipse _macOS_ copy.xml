@@ -1,4 +1,5 @@
 <keymap version="1" name="Eclipse (macOS) copy" parent="Eclipse (Mac OS X)">
+  <action id="ActivateCommitToolWindow" />
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="meta 8" />
   </action>
