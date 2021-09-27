@@ -1,5 +1,8 @@
 <keymap version="1" name="Eclipse (macOS) copy" parent="Eclipse (Mac OS X)">
   <action id="ActivateCommitToolWindow" />
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="meta 8" />
   </action>
@@ -25,6 +28,7 @@
   <action id="FileChooser.GotoProject" />
   <action id="FindNext" />
   <action id="GotoBookmark1" />
+  <action id="NextWindow" />
   <action id="ShowContent" />
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta l" />
