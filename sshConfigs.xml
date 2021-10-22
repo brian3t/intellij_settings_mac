@@ -1,0 +1,9 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="usvsolutions.com" id="d0252221-0687-45b6-bea1-2c7163ce431a" port="22" customName="usv" nameFormat="CUSTOM" username="customer">
+        <option name="customName" value="usv" />
+      </sshConfig>
+    </configs>
+  </component>
+</application>
