@@ -1,4 +1,12 @@
 <keymap version="1" name="Eclipse (macOS) copy" parent="Eclipse (Mac OS X)">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="meta a" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
   <action id="ActivateCommitToolWindow" />
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="meta back_quote" />
@@ -13,6 +21,12 @@
   <action id="ActivateServicesToolWindow">
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
+  <action id="Arrangement.Alias.Rule.Add">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
+  <action id="Arrangement.Rule.Add">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
   <action id="ChangesView.GroupBy.Directory" />
   <action id="ChangesView.Move" />
   <action id="ChangesView.ShelveSilently" />
@@ -21,6 +35,14 @@
   </action>
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="ctrl meta w" />
+  </action>
+  <action id="CompareTwoFiles">
+    <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="Console.Jdbc.Execute">
+    <keyboard-shortcut first-keystroke="meta enter" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="Console.TableResult.EditFilterCriteria">
     <keyboard-shortcut first-keystroke="shift meta alt f" />
@@ -35,11 +57,33 @@
   </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="Diff.ShowDiff">
+    <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="EditorCopy">
+    <keyboard-shortcut first-keystroke="meta c" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
     <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="shift meta alt v" />
+    <keyboard-shortcut first-keystroke="ctrl v" />
   </action>
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
@@ -51,6 +95,9 @@
   </action>
   <action id="FindNext" />
   <action id="FindUsagesInFile" />
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
   <action id="GotoBookmark1" />
   <action id="GotoClass" />
   <action id="HideAllWindows">
@@ -65,14 +112,28 @@
   </action>
   <action id="MethodHierarchy" />
   <action id="MethodHierarchy.BaseOnThisMethod" />
+  <action id="NavBar-selectHome">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
   <action id="NavBar-selectUp">
     <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt i" />
   </action>
   <action id="NextWindow" />
   <action id="PopupMenu-selectPrevious">
     <keyboard-shortcut first-keystroke="up" />
   </action>
   <action id="ProblemsView.QuickFixes" />
+  <action id="ServiceView.AddService">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="SetShortcutAction" />
   <action id="ShelveChanges.UnshelveWithDialog" />
@@ -89,7 +150,9 @@
     <keyboard-shortcut first-keystroke="up" />
   </action>
   <action id="UsageGrouping.Directory" />
+  <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageGrouping.Package" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="Vcs.QuickListPopupAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.MarkdownCreateLinkAction" />
 </keymap>
