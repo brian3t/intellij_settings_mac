@@ -13,6 +13,7 @@
   <action id="ActivateServicesToolWindow">
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
+  <action id="ChangesView.GroupBy.Directory" />
   <action id="ChangesView.Move" />
   <action id="ChangesView.ShelveSilently" />
   <action id="CheckinProject">
@@ -21,8 +22,12 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="ctrl meta w" />
   </action>
+  <action id="Console.TableResult.SetDefault" />
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="DatabaseView.OpenDdlInConsole">
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
@@ -31,6 +36,9 @@
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
     <keyboard-shortcut first-keystroke="shift meta u" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
   </action>
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoProject" />
@@ -48,17 +56,36 @@
   <action id="Jdbc.OpenEditor.Data">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
+  <action id="List-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="MethodHierarchy" />
   <action id="MethodHierarchy.BaseOnThisMethod" />
+  <action id="NavBar-selectUp">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="NextWindow" />
+  <action id="PopupMenu-selectPrevious">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="ProblemsView.QuickFixes" />
+  <action id="ServiceView.GroupByServiceGroups" />
   <action id="SetShortcutAction" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowContent" />
   <action id="ShowIntentionActions" />
+  <action id="Table-selectPreviousRow">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="TodoViewGroupByShowPackages" />
+  <action id="Tree-selectPrevious">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="UsageGrouping.Directory" />
+  <action id="UsageGrouping.Package" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.MarkdownCreateLinkAction" />
 </keymap>
