@@ -136,10 +136,14 @@
     <keyboard-shortcut first-keystroke="up" />
   </action>
   <action id="ProblemsView.QuickFixes" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift meta f11" />
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="RunToCursor" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta h" />
   </action>
