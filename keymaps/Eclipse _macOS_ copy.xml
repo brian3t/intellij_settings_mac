@@ -68,6 +68,7 @@
     <keyboard-shortcut first-keystroke="meta d" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
+  <action id="Documentation.ViewExternal" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="Editor Copy">
@@ -95,6 +96,7 @@
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
   </action>
+  <action id="ExternalJavaDoc" />
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoProject" />
   <action id="FileChooser.TogglePathBar" />
@@ -111,6 +113,9 @@
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="shift f2" />
   </action>
   <action id="Graph.RouteEdges" />
   <action id="HideAllWindows">
@@ -152,6 +157,7 @@
     <keyboard-shortcut first-keystroke="shift meta f11" />
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="RunDashboard.Stop" />
   <action id="RunToCursor" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta h" />
@@ -165,6 +171,7 @@
   <action id="ShowContent" />
   <action id="ShowIntentionActions" />
   <action id="StepInto" />
+  <action id="Stop" />
   <action id="Table-selectPreviousRow">
     <keyboard-shortcut first-keystroke="up" />
   </action>
@@ -172,6 +179,9 @@
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="TodoViewGroupByShowPackages" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="meta f2" />
+  </action>
   <action id="Tree-selectPrevious">
     <keyboard-shortcut first-keystroke="up" />
   </action>
