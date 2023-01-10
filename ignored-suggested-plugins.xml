@@ -3,6 +3,7 @@
     <option name="pluginIds">
       <list>
         <option value="intellij.prettierJS" />
+        <option value="org.intellij.plugins.postcss" />
       </list>
     </option>
   </component>
