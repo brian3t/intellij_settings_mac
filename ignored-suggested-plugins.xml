@@ -4,6 +4,7 @@
       <list>
         <option value="intellij.prettierJS" />
         <option value="org.intellij.plugins.postcss" />
+        <option value="org.jetbrains.plugins.vue" />
       </list>
     </option>
   </component>
